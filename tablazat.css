@@ -1,0 +1,14 @@
+table {
+    border: 1px solid black;
+    width:50%;
+}
+td, th {
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color:grey;
+}
+tr:hover {
+    background-color: skyblue;
+}
